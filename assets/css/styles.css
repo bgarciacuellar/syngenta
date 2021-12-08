@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -24,11 +24,11 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
 
   /*========== Font and typography ==========*/
-  --body-font: 'Open Sans', sans-serif;
-  --title-font: 'Raleway', sans-serif;
+  --body-font: 'Work Sans', sans-serif;
+  --title-font: 'Work Sans', sans-serif;
   --biggest-font-size: 1.8rem;
   --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
+  --h2-font-size: 2rem;
   --h3-font-size: 1rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
@@ -36,7 +36,7 @@
 
   /*========== Font weight ==========*/
   --font-medium: 500;
-  --font-semi-bold: 600;
+  --font-semi-bold: 700;
 
   /*========== Margenes Bottom ==========*/
   --mb-0-25: .25rem;
@@ -173,6 +173,7 @@ input {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: var(--mb-2);
+  text-align: center;
 }
 
 .container {
@@ -320,6 +321,8 @@ input {
 }
 
 
+
+
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
@@ -369,24 +372,20 @@ input {
   justify-content: center;
 }
 
-.about__img-overlay {
-  overflow: var(--img-hidden);
-}
 
-.about__img-one {
-  width: 130px;
-}
+
+
 
 .about__img-two {
   width: 180px;
 }
 
-.about__img-one, 
+ 
 .about__img-two {
   transition: var(--img-transition);
 }
 
-.about__img-one:hover, 
+ 
 .about__img-two:hover {
   transform: var(--img-scale);
 }
@@ -862,7 +861,7 @@ input {
     align-items: center;
   }
   .about__data, .about__title {
-    text-align: initial;
+    text-align: center;
   }
   .about__title {
     margin-bottom: var(--mb-1-5);
@@ -923,9 +922,7 @@ input {
   .home__info-img {
     width: 240px;
   }
-  .about__img-one {
-    width: 230px;
-  }
+
   .about__img-two {
     width: 290px;
   }
