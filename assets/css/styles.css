@@ -6,15 +6,13 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /* Change favorite color to match images */
-  /*Green dark 190 - Green 171 - Grren Blue 200*/
   --hue-color: 190;
 
   /* HSL color mode */
   --first-color: #899a51;
   --first-color-second: #009640;
   --first-color-alt: #194093;
-  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --title-color: #212121;
   --text-color: hsl(var(--hue-color), 24%, 35%);
   --text-color-light: hsl(var(--hue-color), 8%, 60%);
   --input-color: hsl(var(--hue-color), 24%, 97%);
@@ -214,12 +212,16 @@ input {
 .nav__toggle {
   font-size: 1.2rem;
   cursor: pointer;
-  color: #899a51;
-  font-weight: bold;
+  color: var(--first-color);
 }
 
 .nav__menu {
   position: relative;
+}
+
+.nav__item-icon{
+  color: var(--first-color);
+  margin-right: .777rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -322,8 +324,6 @@ input {
 }
 
 
-
-
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
@@ -372,7 +372,6 @@ input {
   align-items: center;
   justify-content: center;
 }
-
 
 .about__img-two {
   width: 180px;
@@ -488,22 +487,7 @@ input {
     grid-template-columns: max-content;
     justify-content: center;
   }
-  .experience__content {
-    padding: 0;
-  }
-  .experience__overlay:nth-child(1) {
-    width: 190px;
-  }
-  .experience__overlay:nth-child(2) {
-    width: 80px;
-  }
-  .home__info {
-    width: 190px;
-    padding: 1rem;
-  }
-  .experience__img{
-    padding: 0;
-  }
+  
 }
 
 /* For medium devices */
@@ -511,10 +495,9 @@ input {
   .place__container {
     grid-template-columns: repeat(3, max-content);
   }
-  .subscribe__form {
-    width: 470px;
-    margin: 0 auto;
-  }
+
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -525,7 +508,7 @@ input {
     height: calc(var(--header-height) + 1.5rem);
   }
   .nav__link {
-    color: black;
+    color: var(--title-color);
     text-transform: initial;
   }
   .nav__link:hover {
@@ -540,7 +523,7 @@ input {
   }
   .nav__list {
     flex-direction: row;
-    column-gap: 4rem;
+    column-gap: 1rem;
   }
   .nav__toggle, .nav__close {
     display: none;
@@ -549,7 +532,7 @@ input {
     display: none;
   }
   .change-theme {
-    color: var(--white-color);
+    color: var(--first-color);
   }
   .active-link::before {
     background-color: var(--white-color);
@@ -576,15 +559,7 @@ input {
   .home__data {
     align-self: flex-end;
   }
-  .home__social {
-    flex-direction: row;
-    align-self: flex-end;
-    margin-bottom: 3rem;
-    column-gap: 2.5rem;
-  }
-  .home__info {
-    bottom: 3rem;
-  }
+  
   .about__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -598,36 +573,9 @@ input {
   .about__description {
     margin-bottom: var(--mb-2);
   }
-  .discover__container {
-    width: 610px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .discover__container,
-  .place__container {
-    padding-top: 2rem;
-  }
-  .experience__overlay:nth-child(1) {
-    width: 363px;
-    margin-right: 4rem;
-  }
-  .experience__overlay:nth-child(2) {
-    width: 160px;
-  }
-  .subscribe__bg {
-    background: none;
-    padding: 0;
-  }
-  .subscribe__container {
-    background-color: var(--first-color-second);
-    padding: 3.5rem 0;
-  }
-  .subscribe__input {
-    padding: 0 .5rem;
-  }
-  .footer__rights {
-    flex-direction: row;
-    justify-content: space-between;
+
+  .download__img{
+    width: 25%;
   }
 }
 
@@ -655,41 +603,23 @@ input {
   .about__img-two {
     width: 290px;
   }
-  .discover__card {
-    width: 237px;
-  }
-  .discover__container {
-    width: 700px;
-  }
-  .discover__data {
-    left: 1.5rem;
-    bottom: 2rem;
-  }
-  .discover__title {
-    font-size: var(--h2-font-size);
-  }
-  .experience__content {
-    margin: var(--mb-1) 0;
-    column-gap: 3.5rem;
-  }
-  .experience__overlay:nth-child(1) {
-    width: 463px;
-    margin-right: 7rem;
-  }
-  .experience__overlay:nth-child(2) {
-    width: 220px;
-    top: 3rem;
-  }
-
+ 
   .place__container {
     gap: 3rem 2rem;
   }
   .place__card, .place__img {
     height: 263px;
   }
-  .footer__content {
-    justify-items: center;
+
+  .download__container{
+    display: flex;
+    justify-content: center;
   }
+
+  .download__content{
+    
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
