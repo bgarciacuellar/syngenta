@@ -1,2 +1,0 @@
-# syngenta
-Proyecto Nimbus 
