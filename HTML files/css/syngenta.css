@@ -1,0 +1,228 @@
+.beneficios {
+	background:#899A51 !important;
+}
+
+.white {
+	background-color:#FFF !important;
+	border-top: none !important;
+}
+
+.home-intro.light {
+    background-color: #EDEDED;
+}
+
+.text-beneficios {
+	color:#899A51;
+}
+
+
+/** SYNGENTA **/
+/** FENOLOGIA TOMATE **/
+
+.feno-tomate-01 {
+	background-image: url("../assets/fenologia/tomate/feno-tomate01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-tomate-02 {
+	background-image: url("../assets/fenologia/tomate/feno-tomate02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-tomate-03 {
+	background-image: url("../assets/fenologia/tomate/feno-tomate03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-tomate-04 {
+	background-image: url("../assets/fenologia/tomate/feno-tomate04.png") !important;
+	background-size: cover !important;
+}
+
+.feno-tomate-05 {
+	background-image: url("../assets/fenologia/tomate/feno-tomate05.png") !important;
+	background-size: cover !important;
+}
+
+.feno-tomate-06 {
+	background-image: url("../assets/fenologia/tomate/feno-tomate06.png") !important;
+	background-size: cover !important;
+}
+
+/**** ---------- JANUARY 05 ADDITIONS ---**/
+/** FENOLOGIA CEBOLLA **/
+
+.feno-cebolla-01 {
+	background-image: url("../assets/fenologia/cebolla/fenologia cebolla-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cebolla-02 {
+	background-image: url("../assets/fenologia/cebolla/fenologia cebolla-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cebolla-03 {
+	background-image: url("../assets/fenologia/cebolla/fenologia cebolla-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cebolla-04 {
+	background-image: url("../assets/fenologia/cebolla/fenologia cebolla-04.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cebolla-05 {
+	background-image: url("../assets/fenologia/cebolla/fenologia cebolla-05.png") !important;
+	background-size: cover !important;
+}
+
+/**** ---------- JANUARY 06 ADDITIONS ---**/
+
+.feno-chile-01 {
+	background-image: url("../assets/fenologia/chile/fenologia-chile-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-chile-02 {
+	background-image: url("../assets/fenologia/chile/fenologia-chile-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-chile-03 {
+	background-image: url("../assets/fenologia/chile/fenologia-chile-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-chile-04 {
+	background-image: url("../assets/fenologia/chile/fenologia-chile-04.png") !important;
+	background-size: cover !important;
+}
+
+.feno-chile-05 {
+	background-image: url("../assets/fenologia/chile/fenologia-chile-05.png") !important;
+	background-size: cover !important;
+}
+
+/**** ---------- JANUARY 07 ADDITIONS ---**/
+
+.feno-cucurbit-01 {
+	background-image: url("../assets/fenologia/cucurbitaceas/fenologia-curcubitaceas-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cucurbit-02 {
+	background-image: url("../assets/fenologia/cucurbitaceas/fenologia-curcubitaceas-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cucurbit-03 {
+	background-image: url("../assets/fenologia/cucurbitaceas/fenologia-curcubitaceas-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cucurbit-04 {
+	background-image: url("../assets/fenologia/cucurbitaceas/fenologia-curcubitaceas-04.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cucurbit-05 {
+	background-image: url("../assets/fenologia/cucurbitaceas/fenologia-curcubitaceas-05.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cucurbit-06 {
+	background-image: url("../assets/fenologia/cucurbitaceas/fenologia-curcubitaceas-06.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cucurbit-07 {
+	background-image: url("../assets/fenologia/cucurbitaceas/fenologia-curcubitaceas-07.png") !important;
+	background-size: cover !important;
+}
+
+.feno-crucif-01 {
+	background-image: url("../assets/fenologia/cruciferas/fenologia-cruciferas-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-crufic-02 {
+	background-image: url("../assets/fenologia/cruciferas/fenologia-cruciferas-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-crucif-03 {
+	background-image: url("../assets/fenologia/cruciferas/fenologia-cruciferas-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-crucif-04 {
+	background-image: url("../assets/fenologia/cruciferas/fenologia-cruciferas-04.png") !important;
+	background-size: cover !important;
+}
+
+.feno-crucif-05 {
+	background-image: url("../assets/fenologia/cruciferas/fenologia-cruciferas-05.png") !important;
+	background-size: cover !important;
+}
+
+.feno-crucif-06 {
+	background-image: url("../assets/fenologia/cruciferas/fenologia-cruciferas-06.png") !important;
+	background-size: cover !important;
+}
+
+
+/*** END FENOLOGIAS**/
+/*** ADDED JAN 7 CONTINUED**/
+
+.container:not(.container-bs):not(.container-xl-custom):not(.container-xxl-custom) {
+	max-width: 1400px !important;
+}
+
+/*** END JAN 7 UPDATES**/
+
+.featured-boxes-style-6 .featured-box .icon-featured {
+	width:95px;
+	height:128px;
+	border: none;
+}
+
+.featured-boxes-style-6 .featured-box .icon-featured::after {
+	border: none;
+}
+
+.tabs .toggle img {
+    margin: 2% 0;
+}
+
+.columnsintabsflex {
+	float: left;
+	text-align: center;
+}
+
+.tab-content .toggle-content {
+    padding: 3% 2%;
+	text-align: center;
+}
+
+.centerbutton {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+.hidemobile {
+	display:none !important;
+}
+	
+	/*** UPDATE JAN 5 **/
+	.plussign {
+		width:100%;
+	}
+	
+	.columnsintabsflex {
+		float: none;
+	}
+	
+		/*** END UPDATE JAN 5 **/
+}
