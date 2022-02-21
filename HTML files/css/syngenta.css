@@ -171,7 +171,28 @@
 	background-size: cover !important;
 }
 
+/**** ---------- FEBRUARY 21 ADDITIONS ---**/ 
+/** FENOLOGIA AGAVE **/
 
+.feno-agave-01 {
+	background-image: url("../assets/fenologia/agave/fenologia_agave-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-agave-02 {
+	background-image: url("../assets/fenologia/agave/fenologia_agave-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-agave-03 {
+	background-image: url("../assets/fenologia/agave/fenologia_agave-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-agave-04 {
+	background-image: url("../assets/fenologia/agave/fenologia_agave-04.png") !important;
+	background-size: cover !important;
+}
 /*** END FENOLOGIAS**/
 /*** ADDED JAN 7 CONTINUED**/
 
