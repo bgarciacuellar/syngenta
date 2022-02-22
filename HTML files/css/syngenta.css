@@ -238,6 +238,21 @@
 	background-size: cover !important;
 }
 
+/** FENOLOGIA CAÑA **/
+.feno-cereal-01 {
+	background-image: url("../assets/fenologia/cereales/Fenologia_cereales-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cereal-02 {
+	background-image: url("../assets/fenologia/cereales/Fenologia_cereales-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cereal-03 {
+	background-image: url("../assets/fenologia/cereales/Fenologia_cereales-03.png") !important;
+	background-size: cover !important;
+}
 
 /*** END FENOLOGIAS**/
 /*** ADDED JAN 7 CONTINUED**/
