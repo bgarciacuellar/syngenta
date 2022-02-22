@@ -211,6 +211,33 @@
 	background-size: cover !important;
 }
 
+/**** ---------- FEBRUARY 22 ADDITIONS ---**/ 
+/** FENOLOGIA CAÑA **/
+.feno-cana-01 {
+	background-image: url("../assets/fenologia/cana/Fenologia_caña-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cana-02 {
+	background-image: url("../assets/fenologia/cana/Fenologia_caña-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cana-03 {
+	background-image: url("../assets/fenologia/cana/Fenologia_caña-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cana-04 {
+	background-image: url("../assets/fenologia/cana/Fenologia_caña-04.png") !important;
+	background-size: cover !important;
+}
+
+.feno-cana-05 {
+	background-image: url("../assets/fenologia/cana/Fenologia_caña-05.png") !important;
+	background-size: cover !important;
+}
+
 
 /*** END FENOLOGIAS**/
 /*** ADDED JAN 7 CONTINUED**/
