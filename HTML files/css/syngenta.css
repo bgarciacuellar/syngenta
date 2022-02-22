@@ -254,6 +254,31 @@
 	background-size: cover !important;
 }
 
+/** FENOLOGIA CÍTRICO **/
+.feno-citrico-01 {
+	background-image: url("../assets/fenologia/citricos/Fenologia_citricos-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-citrico-02 {
+	background-image: url("../assets/fenologia/citricos/Fenologia_citricos-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-citrico-03 {
+	background-image: url("../assets/fenologia/citricos/Fenologia_citricos-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-citrico-04 {
+	background-image: url("../assets/fenologia/citricos/Fenologia_citricos-04.png") !important;
+	background-size: cover !important;
+}
+
+.feno-citrico-05 {
+	background-image: url("../assets/fenologia/citricos/Fenologia_citricos-05.png") !important;
+	background-size: cover !important;
+}
 /*** END FENOLOGIAS**/
 /*** ADDED JAN 7 CONTINUED**/
 
