@@ -279,7 +279,107 @@
 	background-image: url("../assets/fenologia/citricos/Fenologia_citricos-05.png") !important;
 	background-size: cover !important;
 }
+
+
+/**** ---------- FEBRUARY 22  ADDITIONS ---**/
+/** FENOLOGIA MANGO **/
+.feno-mango-01 {
+	background-image: url("../assets/fenologia/mango/Fenologia_Mango-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-mango-02 {
+	background-image: url("../assets/fenologia/mango/Fenologia_Mango-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-mango-03 {
+	background-image: url("../assets/fenologia/mango/Fenologia_Mango-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-mango-04 {
+	background-image: url("../assets/fenologia/mango/Fenologia_Mango-04.png") !important;
+	background-size: cover !important;
+}
+
+/** FENOLOGIA FRIJOL **/
+.feno-frijol-01 {
+	background-image: url("../assets/fenologia/frijol/Fenologia_Frijol-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-frijol-02 {
+	background-image: url("../assets/fenologia/frijol/Fenologia_Frijol-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-frijol-03 {
+	background-image: url("../assets/fenologia/frijol/Fenologia_Frijol-03.png") !important;
+	background-size: cover !important;
+}
+
+/** FENOLOGIA MAÍZ **/
+.feno-maiz-01 {
+	background-image: url("../assets/fenologia/maiz/Fenologia_Maiz-01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-maiz-02 {
+	background-image: url("../assets/fenologia/maiz/Fenologia_Maiz-02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-maiz-03 {
+	background-image: url("../assets/fenologia/maiz/Fenologia_Maiz-03.png") !important;
+	background-size: cover !important;
+}
+
+
+/** FENOLOGIA PAPA **/
+.feno-papa-01 {
+	background-image: url("../assets/fenologia/papa/Fenologia_Papa-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-papa-02 {
+	background-image: url("../assets/fenologia/papa/Fenologia_Papa-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-papa-03 {
+	background-image: url("../assets/fenologia/papa/Fenologia_Papa-03.png") !important;
+	background-size: cover !important;
+}
+
+.feno-papa-04 {
+	background-image: url("../assets/fenologia/papa/Fenologia_Papa-04.png") !important;
+	background-size: cover !important;
+}
+
+.feno-papa-05 {
+	background-image: url("../assets/fenologia/papa/Fenologia_Papa-05.png") !important;
+	background-size: cover !important;
+}
+
+.feno-papa-06 {
+	background-image: url("../assets/fenologia/papa/Fenologia_Papa-06.png") !important;
+	background-size: cover !important;
+}
+
+.feno-papa-07 {
+	background-image: url("../assets/fenologia/papa/Fenologia_Papa-07.png") !important;
+	background-size: cover !important;
+}
+
+.feno-papa-08 {
+	background-image: url("../assets/fenologia/papa/Fenologia_Papa-08.png") !important;
+	background-size: cover !important;
+}
+
 /*** END FENOLOGIAS**/
+
+
 /*** ADDED JAN 7 CONTINUED**/
 
 .container:not(.container-bs):not(.container-xl-custom):not(.container-xxl-custom) {
