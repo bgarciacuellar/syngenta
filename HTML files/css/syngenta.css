@@ -377,6 +377,21 @@
 	background-size: cover !important;
 }
 
+/** FENOLOGIA AGUACATE **/
+.feno-aguacate-01 {
+	background-image: url("../assets/fenologia/aguacate/Fenologia_Aguacate_01.png") !important;
+	background-size: cover !important;
+}
+
+.feno-aguacate-02 {
+	background-image: url("../assets/fenologia/aguacate/Fenologia_Aguacate_02.png") !important;
+	background-size: cover !important;
+}
+
+.feno-aguacate-03 {
+	background-image: url("../assets/fenologia/aguacate/Fenologia_Aguacate_03.png") !important;
+	background-size: cover !important;
+}
 /*** END FENOLOGIAS**/
 
 
